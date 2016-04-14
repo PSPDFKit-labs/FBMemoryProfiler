@@ -45,9 +45,54 @@
 		75DE19C21C5BDD6400B2C142 /* FBMemoryProfilerWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DE199C1C5BDD6400B2C142 /* FBMemoryProfilerWindow.h */; };
 		75DE19C31C5BDD6400B2C142 /* FBMemoryProfilerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DE199D1C5BDD6400B2C142 /* FBMemoryProfilerWindow.m */; };
 		75DE19C41C5BDD6400B2C142 /* FBMemoryProfilerWindowTouchesHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DE199E1C5BDD6400B2C142 /* FBMemoryProfilerWindowTouchesHandling.h */; };
-		75DE19F71C5BE00900B2C142 /* FBAllocationTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DE19F61C5BE00900B2C142 /* FBAllocationTracker.framework */; };
-		75DE19F91C5BE00C00B2C142 /* FBRetainCycleDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DE19F81C5BE00C00B2C142 /* FBRetainCycleDetector.framework */; };
+		B9E301811CBF9413006BF566 /* FBAllocationTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E301711CBF93E9006BF566 /* FBAllocationTracker.framework */; };
+		B9E301821CBF9413006BF566 /* FBRetainCycleDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E3017A1CBF93FB006BF566 /* FBRetainCycleDetector.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9E301701CBF93E9006BF566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E3016B1CBF93E9006BF566 /* FBAllocationTracker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75BF0EC51C5BCEA000E0DAB6;
+			remoteInfo = FBAllocationTracker;
+		};
+		B9E301721CBF93E9006BF566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E3016B1CBF93E9006BF566 /* FBAllocationTracker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75BF0EEF1C5BCF8100E0DAB6;
+			remoteInfo = FBAllocationTrackerTests;
+		};
+		B9E301791CBF93FB006BF566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E301741CBF93FB006BF566 /* FBRetainCycleDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75BF0E181C5ADBCC00E0DAB6;
+			remoteInfo = FBRetainCycleDetector;
+		};
+		B9E3017B1CBF93FB006BF566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E301741CBF93FB006BF566 /* FBRetainCycleDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75BF0E271C5ADCA200E0DAB6;
+			remoteInfo = FBRetainCycleDetectorTests;
+		};
+		B9E3017D1CBF9402006BF566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E301741CBF93FB006BF566 /* FBRetainCycleDetector.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75BF0E171C5ADBCC00E0DAB6;
+			remoteInfo = FBRetainCycleDetector;
+		};
+		B9E3017F1CBF9405006BF566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E3016B1CBF93E9006BF566 /* FBAllocationTracker.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75BF0EC41C5BCEA000E0DAB6;
+			remoteInfo = FBAllocationTracker;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		75BF0F061C5BDCE800E0DAB6 /* FBMemoryProfiler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBMemoryProfiler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,8 +135,8 @@
 		75DE199C1C5BDD6400B2C142 /* FBMemoryProfilerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMemoryProfilerWindow.h; sourceTree = "<group>"; };
 		75DE199D1C5BDD6400B2C142 /* FBMemoryProfilerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMemoryProfilerWindow.m; sourceTree = "<group>"; };
 		75DE199E1C5BDD6400B2C142 /* FBMemoryProfilerWindowTouchesHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMemoryProfilerWindowTouchesHandling.h; sourceTree = "<group>"; };
-		75DE19F61C5BE00900B2C142 /* FBAllocationTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAllocationTracker.framework; path = Carthage/Build/iOS/FBAllocationTracker.framework; sourceTree = "<group>"; };
-		75DE19F81C5BE00C00B2C142 /* FBRetainCycleDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBRetainCycleDetector.framework; path = Carthage/Build/iOS/FBRetainCycleDetector.framework; sourceTree = "<group>"; };
+		B9E3016B1CBF93E9006BF566 /* FBAllocationTracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBAllocationTracker.xcodeproj; path = FBAllocationTracker/FBAllocationTracker.xcodeproj; sourceTree = "<group>"; };
+		B9E301741CBF93FB006BF566 /* FBRetainCycleDetector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBRetainCycleDetector.xcodeproj; path = FBRetainCycleDetector/FBRetainCycleDetector.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +144,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DE19F91C5BE00C00B2C142 /* FBRetainCycleDetector.framework in Frameworks */,
-				75DE19F71C5BE00900B2C142 /* FBAllocationTracker.framework in Frameworks */,
+				B9E301811CBF9413006BF566 /* FBAllocationTracker.framework in Frameworks */,
+				B9E301821CBF9413006BF566 /* FBRetainCycleDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +155,8 @@
 		75BF0EFC1C5BDCE800E0DAB6 = {
 			isa = PBXGroup;
 			children = (
-				75CF354F1C5FC5AE00DB8DE4 /* Framework */,
+				B9E301741CBF93FB006BF566 /* FBRetainCycleDetector.xcodeproj */,
+				B9E3016B1CBF93E9006BF566 /* FBAllocationTracker.xcodeproj */,
 				75BF0F081C5BDCE800E0DAB6 /* FBMemoryProfiler */,
 				75BF0F071C5BDCE800E0DAB6 /* Products */,
 			);
@@ -140,15 +186,6 @@
 				75DE19981C5BDD6400B2C142 /* Window */,
 			);
 			path = FBMemoryProfiler;
-			sourceTree = "<group>";
-		};
-		75CF354F1C5FC5AE00DB8DE4 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				75DE19F81C5BE00C00B2C142 /* FBRetainCycleDetector.framework */,
-				75DE19F61C5BE00900B2C142 /* FBAllocationTracker.framework */,
-			);
-			name = Framework;
 			sourceTree = "<group>";
 		};
 		75DE19721C5BDD6400B2C142 /* Controllers */ = {
@@ -235,6 +272,24 @@
 			path = Window;
 			sourceTree = "<group>";
 		};
+		B9E3016C1CBF93E9006BF566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E301711CBF93E9006BF566 /* FBAllocationTracker.framework */,
+				B9E301731CBF93E9006BF566 /* FBAllocationTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E301751CBF93FB006BF566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E3017A1CBF93FB006BF566 /* FBRetainCycleDetector.framework */,
+				B9E3017C1CBF93FB006BF566 /* FBRetainCycleDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -282,6 +337,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				B9E301801CBF9405006BF566 /* PBXTargetDependency */,
+				B9E3017E1CBF9402006BF566 /* PBXTargetDependency */,
 			);
 			name = FBMemoryProfiler;
 			productName = FBMemoryProfiler;
@@ -312,12 +369,53 @@
 			mainGroup = 75BF0EFC1C5BDCE800E0DAB6;
 			productRefGroup = 75BF0F071C5BDCE800E0DAB6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B9E3016C1CBF93E9006BF566 /* Products */;
+					ProjectRef = B9E3016B1CBF93E9006BF566 /* FBAllocationTracker.xcodeproj */;
+				},
+				{
+					ProductGroup = B9E301751CBF93FB006BF566 /* Products */;
+					ProjectRef = B9E301741CBF93FB006BF566 /* FBRetainCycleDetector.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				75BF0F051C5BDCE800E0DAB6 /* FBMemoryProfiler */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B9E301711CBF93E9006BF566 /* FBAllocationTracker.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBAllocationTracker.framework;
+			remoteRef = B9E301701CBF93E9006BF566 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9E301731CBF93E9006BF566 /* FBAllocationTrackerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FBAllocationTrackerTests.xctest;
+			remoteRef = B9E301721CBF93E9006BF566 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9E3017A1CBF93FB006BF566 /* FBRetainCycleDetector.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBRetainCycleDetector.framework;
+			remoteRef = B9E301791CBF93FB006BF566 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9E3017C1CBF93FB006BF566 /* FBRetainCycleDetectorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FBRetainCycleDetectorTests.xctest;
+			remoteRef = B9E3017B1CBF93FB006BF566 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		75BF0F041C5BDCE800E0DAB6 /* Resources */ = {
@@ -354,6 +452,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E3017E1CBF9402006BF566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBRetainCycleDetector;
+			targetProxy = B9E3017D1CBF9402006BF566 /* PBXContainerItemProxy */;
+		};
+		B9E301801CBF9405006BF566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAllocationTracker;
+			targetProxy = B9E3017F1CBF9405006BF566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		75BF0F181C5BDCE800E0DAB6 /* Debug */ = {
