@@ -1,0 +1,6 @@
+[submodule "FBAllocationTracker"]
+	path = FBAllocationTracker
+	url = https://github.com/facebook/FBAllocationTracker.git
+[submodule "FBRetainCycleDetector"]
+	path = FBRetainCycleDetector
+	url = https://github.com/facebook/FBRetainCycleDetector.git
